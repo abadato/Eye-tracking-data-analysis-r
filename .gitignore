@@ -1,0 +1,28 @@
+# R project
+
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+
+.DS_Store
+
+# Raw / participant-level data
+
+data/raw/
+data/processed/*.rds
+data/processed/*.tsv
+
+# Participant-level analysis output
+
+results/tables/01_firstCleanData_full.tsv
+
+# Local/private files
+
+.env
+
+# Temporary files
+
+*.tmp
+*.log
